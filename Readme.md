@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Бабченко](https://up.htmlacademy.ru/htmlcss/27/user/1230103).
-* Наставник: Максим Кузнецов.
+* Наставник: Максим Кузнецов (https://htmlacademy.ru/profile/maxkuznetsov).
 
 ---
 
