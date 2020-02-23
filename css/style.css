@@ -1,0 +1,256 @@
+body {
+  background-color: #fff;
+}
+header {
+  background-color: #f1f5f7;
+}
+.user-navigation {
+  height: 42px;
+  background-color: #293449;
+  margin: 0px;
+}
+.user-navigation li{
+  float: left;
+  list-style-type: none;
+}
+.user-navigation a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cuprum", sans-serif;
+  font-size: 17pt;
+}
+.header-logo {
+  width: 220px;
+  height: 42px;
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #b52933;
+}
+.logo {
+  margin-top: 13px;
+  margin-left: 55px;
+}
+.search-field {
+  height: 42px;
+  width: 270px;
+}
+.search {
+  position: absolute;
+  color: #fff;
+  font-family: "Cuprum", sans-serif;
+  font-size: 17pt;
+  margin-top: 13px;
+  margin-left: 49px;
+}
+.header-button {
+  width: 150px;
+  height: 42px;
+}
+
+.header-button a{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 45px;
+}
+
+.header-button:hover {
+  background-color: #212a3a;
+}
+.heder-button:active {
+  background-color: #212a3a;
+
+}
+.header-button-chekout {
+    background-color: #63a63e;
+    width: 150px;
+    height: 42px;
+}
+.header-button-chekout a{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 21px;
+}
+.header-button-chekout:hover {
+  background-color: #5fbb2d;
+}
+.header-button-chekout:active {
+  background-color: #518534;
+}
+.h1-container {
+  width: 200px;
+  height: 60px;
+}
+.site-discription {
+  color:#ee3643;
+  font-family: "Cuprum", sans-serif;
+  font-style: italic;
+  font-size: 16pt;
+  line-height: 23pt;
+}
+.header-addres {
+  width: 300px;
+  height: 100px;
+  font-family: "Cuprum", sans-serif;
+  font-size: 14pt;
+  color:#32425c;
+  line-height: 30pt;
+}
+.phone-number {
+  font-size: 21pt;
+  color:#e9292a;
+  border: 3px solid #fff;
+
+}
+.user-identification {
+  width:300px;
+  height:60px;
+}
+.user-identification li{
+  list-style-type: none;
+}
+
+.user-identification a{
+  text-decoration: none;
+  color: #000;
+  font-family: "Cuprum", sans-serif;
+  font-size: 21pt;
+}
+.enterbtn {
+  width: 120px;
+  height: 45px;
+  background-color: #fff;
+}
+.regbtn {
+  width:150px;
+  height:45px;
+  background-color: #fff;
+}
+.main-navigation li{
+  float: left;
+  list-style-type: none;
+}
+.main-navigation {
+  width: 940px;
+  height: 55px;
+  background-color: #32425c;
+  box-shadow: 0 5px 0 0 #293449;
+}
+.nav-item {
+  font-family: "Cuprum", sans-serif;
+  text-decoration: none;
+  font-size: 17pt;
+  color: #fff;
+  width: 14%;
+  height: 55px;
+  position: relative;
+}
+.nav-item:hover {
+  background-color: #293449;
+}
+.nav-item a{
+  font-family: "Cuprum", sans-serif;
+  text-decoration: none;
+  font-size: 17pt;
+  color: #fff;
+}
+.vissualy-hidden {
+  display: none;
+}
+
+.aboutsection {
+  width: 540px;
+  height: 420px;
+}
+.aboutsection h2 {
+  font-family: "Cuprum", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+.aboutsection p{
+  font-family: "PT Sans", sans-serif;
+  font-size: 13pt;
+  line-height: 24pt;
+}
+.aboutsection li{
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  line-height: 2.5em;
+}
+.redbutton {
+  width: 220px;
+  height: 40px;
+  background-color: #ee3643;
+}
+.redbutton a{
+  font-family: "Cuprum", sans-serif;
+  text-decoration: none;
+  font-size: 14pt;
+  color: #fff;
+}
+.mapsection {
+  width: 300px;
+  height: 380px;
+}
+.mapsection h2{
+  font-family: "Cuprum", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+.mapsection p{
+  font-family: "PT Sans", sans-serif;
+  font-size: 13pt;
+  line-height: 24pt;
+}
+.footer-menu {
+  height: 193px;
+  width: 100%;
+  background-color: #32425c;
+}
+.footer-addres {
+  font-family: "Cuprum", sans-serif;
+  font-size: 18pt;
+  line-height: 24pt;
+  color: #fff;
+  width: 440px;
+}
+.footer-navigation li{
+  float: left;
+  list-style-type: none;
+}
+.footer-offer li{
+  float: left;
+  list-style-type: none;
+}
+.footer-navigation a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cuprum", sans-serif;
+  font-size: 18pt;
+}
+.footer-offer a{
+  text-decoration: none;
+  color: #ffd180;
+  font-family: "Cuprum", sans-serif;
+  font-size: 18pt;
+}
+.footer-info {
+  height: 107px;
+  width: 100%;
+  background-color: #293449;
+}
+.footer-info p{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cuprum", sans-serif;
+  font-size: 16pt;
+  line-height: 18pt;
+}
+.footer-info li{
+  float: left;
+  list-style-type: none;
+}
+.links a{
+  text-decoration: none;
+  color: #ffd180;
+  font-family: "Cuprum", sans-serif;
+  font-size: 16pt;
+}
