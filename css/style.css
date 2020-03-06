@@ -4,20 +4,28 @@ body {
 
 header {
 	background-color: #f1f5f7;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 65px;
 }
 
 .user-navigation {
 	background-color: #293449;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
 }
 
 .user-navigation li {
 	float: left;
 	list-style-type: none;
+	align-self: center;
 }
 
 .user-navigation a {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 23px;
 }
@@ -35,7 +43,7 @@ header {
 }
 
 .search {
-	color: #fff;
+	color: #ffffff;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 23px;
 }
@@ -55,8 +63,8 @@ header {
 }
 
 .header-button-chekout {
-	background-color: #63a63e;
 	width: 150px;
+	background-color: #63a63e;
 }
 
 .header-button-chekout a {}
@@ -69,13 +77,21 @@ header {
 	background-color: #518534;
 }
 
+.heder-registration {
+	display: flex;
+	justify-content: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	align-items: center;
+}
+
 .h1-container {
-	width: 200px;
+	width: 250px;
 }
 
 .site-discription {
 	color: #ee3643;
-	font-family: "Cuprum", "Arial", sans-serif;
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-style: italic;
 	font-size: 21px;
 	line-height: 31px;
@@ -87,6 +103,8 @@ header {
 	font-size: 19px;
 	color: #32425c;
 	line-height: 40px;
+	padding-left: 68px;
+	padding-right: 68px;
 }
 
 .phone-number {
@@ -95,11 +113,16 @@ header {
 	border: 3px solid #fff;
 }
 
-.user-identification {
-	width: 300px;
+.unauthorized {
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 }
 
 .user-identification li {
+	float: left;
 	list-style-type: none;
 }
 
@@ -112,12 +135,12 @@ header {
 
 .enterbtn {
 	width: 120px;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 .regbtn {
 	width: 150px;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 .main-navigation li {
@@ -129,13 +152,14 @@ header {
 	width: 940px;
 	background-color: #32425c;
 	box-shadow: 0 5px 0 0 #293449;
+	align-self: center;
 }
 
 .nav-item {
 	font-family: "Cuprum", "Arial", sans-serif;
 	text-decoration: none;
 	font-size: 23px;
-	color: #fff;
+	color: #ffffff;
 	width: 14%;
 }
 
@@ -147,11 +171,17 @@ header {
 	font-family: "Cuprum", "Arial", sans-serif;
 	text-decoration: none;
 	font-size: 23px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .vissualy-hidden {
 	display: none;
+}
+
+.location {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 90px;
 }
 
 .aboutsection {
@@ -185,7 +215,7 @@ header {
 	font-family: "Cuprum", "Arial", sans-serif;
 	text-decoration: none;
 	font-size: 19px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .mapsection {
@@ -207,13 +237,20 @@ header {
 .footer-menu {
 	width: 100%;
 	background-color: #32425c;
+	display: flex;
+	justify-content: space-around;
+}
+
+.side-footer-menu {
+	display: flex;
+	flex-direction: column;
 }
 
 .footer-addres {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 24px;
 	line-height: 32px;
-	color: #fff;
+	color: #ffffff;
 	width: 440px;
 }
 
@@ -229,7 +266,7 @@ header {
 
 .footer-navigation a {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 24px;
 }
@@ -242,14 +279,15 @@ header {
 }
 
 .footer-info {
-	height: 107px;
 	width: 100%;
 	background-color: #293449;
+	display: flex;
+	justify-content: space-around;
 }
 
 .footer-info p {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 21px;
 	line-height: 24px;
